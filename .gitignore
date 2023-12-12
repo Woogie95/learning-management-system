@@ -25,7 +25,8 @@ bin/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-.application-security.yml
+application-security.yml
+smtp.txt
 
 ### NetBeans ###
 /nbproject/private/
