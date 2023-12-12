@@ -15,3 +15,15 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: create
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: choisw950928@gmail.com
+    password: gick hark fozm ltlu
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+

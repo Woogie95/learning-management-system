@@ -25,5 +25,11 @@ public class Member {
     private String phoneNumber;
     @CreatedDate
     private LocalDateTime registered;
+    private boolean isEmailAuth;
+    private String emailAuthKey;
+
+    public void updateEmailAuthKey(String emailAuthKey) {
+        this.emailAuthKey = emailAuthKey;
+    }
 
 }
